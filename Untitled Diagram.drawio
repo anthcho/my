@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-09T00:46:02.489Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="cC5MlT0swUiBW3VMz4ri" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T00:50:51.192Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="mBtY5jBHPeADtQHXp-Gg" version="12.4.9" type="github">
   <diagram id="6I6xac8LYPNRdGNH9G0V" name="Page-1">
-    <mxGraphModel dx="1855" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1855" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -81,8 +81,8 @@
             <mxPoint x="210" y="160" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2WvPanqCT4wS21xxcVQg-4" value="&lt;pre style=&quot;font-family: monospace , &amp;#34;courier&amp;#34; ; padding: 1em ; border: 1px solid rgb(221 , 221 , 221) ; background-color: rgb(249 , 249 , 249) ; line-height: 1.3em ; font-size: 14px&quot;&gt;aws-pl-notify-run-instances-NonProd000&lt;br/&gt;aws-pl-notify-run-instances-Prod000&lt;br/&gt;aws-pl-notify-start-instances-NonProd000&lt;br/&gt;aws-pl-notify-start-instances-Prod000&lt;br/&gt;aws-pl-notify-stop-instances-NonProd000&lt;br/&gt;aws-pl-notify-stop-instances-Prod000&lt;/pre&gt;&lt;pre style=&quot;font-family: monospace , &amp;#34;courier&amp;#34; ; padding: 1em ; border: 1px solid rgb(221 , 221 , 221) ; background-color: rgb(249 , 249 , 249) ; line-height: 1.3em ; font-size: 14px&quot;&gt;aws-pl-notify-terminate-instances-NonProd000&lt;br/&gt;aws-pl-notify-terminate-instances-Prod000&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="290" width="380" height="250" as="geometry"/>
+        <mxCell id="2WvPanqCT4wS21xxcVQg-4" value="&lt;pre style=&quot;font-family: monospace, courier; padding: 1em; border: 1px solid rgb(221, 221, 221); background-color: rgb(249, 249, 249); line-height: 1.3em; font-size: 10px;&quot;&gt;aws-pl-notify-run-instances-NonProd000&lt;br style=&quot;font-size: 10px;&quot;&gt;aws-pl-notify-run-instances-Prod000&lt;br style=&quot;font-size: 10px;&quot;&gt;aws-pl-notify-start-instances-NonProd000&lt;br style=&quot;font-size: 10px;&quot;&gt;aws-pl-notify-start-instances-Prod000&lt;br style=&quot;font-size: 10px;&quot;&gt;aws-pl-notify-stop-instances-NonProd000&lt;br style=&quot;font-size: 10px;&quot;&gt;aws-pl-notify-stop-instances-Prod000&lt;/pre&gt;&lt;pre style=&quot;font-family: monospace, courier; padding: 1em; border: 1px solid rgb(221, 221, 221); background-color: rgb(249, 249, 249); line-height: 1.3em; font-size: 10px;&quot;&gt;aws-pl-notify-terminate-instances-NonProd000&lt;br style=&quot;font-size: 10px;&quot;&gt;aws-pl-notify-terminate-instances-Prod000&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="520" y="321" width="280" height="180" as="geometry"/>
         </mxCell>
         <mxCell id="2WvPanqCT4wS21xxcVQg-5" value="event api&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="223" y="301" width="60" height="20" as="geometry"/>
@@ -125,6 +125,9 @@
         </mxCell>
         <mxCell id="KqsyyMvF4YfD29Q2Gl0U-13" value="workers" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="90" y="364" width="30" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="KqsyyMvF4YfD29Q2Gl0U-14" value="Process the following &lt;br&gt;AWS SQS queues" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="291" width="110" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
